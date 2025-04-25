@@ -1,0 +1,29 @@
+name: neofleks_quest
+description: Геймифицированный квест по компании Неофлекс
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/mascot.png
+    - lib/assets/mascot2.png
+    - lib/assets/mascot_love.png
+    - lib/assets/mascot_happy.png
+    - lib/assets/mascot_small.png
+
